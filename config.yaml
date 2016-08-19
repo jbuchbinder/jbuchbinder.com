@@ -1,0 +1,79 @@
+baseurl:            http://jbuchbinder.com/
+disablePathToLower: true
+languageCode:       en-us
+title:              /home/jeff/blog
+
+pygmentsuseclasses: true 
+theme:              jbuchbinder-2016
+
+permalinks:
+  post: "/:year/:month/:day/:title/"
+
+params:
+  author:
+    name: Jeff
+    image: "https://pbs.twimg.com/profile_images/635557390256091138/Bpvzdb3D.jpg"
+    bio: "Software engineer, ops tech, musician, photographer, cinematographer, film theorist, recording engineer. Rest is for the weak."
+  inc:
+    title:        "/home/jeff/blog"
+    subtitle:     "This is my blog. There are many like it, but this is my own."
+    cover_image:  CanonLensLineup.jpg
+    logo:         logo.jpg
+    company:      Jeffrey Buchbinder
+    url:          http://jbuchbinder.com/
+    facebook:     JeffreyBuchbinderFilm
+    github:       jbuchbinder
+    twitter:      jbuchbinder
+    instagram:    jbuchbinderphotos
+    related_links: 5
+#    gplus:        ''
+    
+    # Product Information
+    #product_link: http://jbuchbinder.com/
+    tagline:      "Sucking away valuable moments of your life ..."
+
+    links:
+      -
+        name: "In Memoriam"
+        url: "/in-memoriam/"
+        menu: in-memoriam
+      -
+        name: "Music"
+        url: "/music/"
+        menu: music
+      -
+        name: "Photography"
+        url: "/photo/"
+        menu: photo
+      -
+        name: "Pets"
+        url: "/pets/"
+        menu: pets
+      -
+        name: "Quotes"
+        url: "/quotes/"
+        menu: quotes
+      -
+        name: "Wishlist"
+        url: "/wishlist/"
+        menu: wishlist
+    
+    # Comments
+    disqus:
+      # Set a shortname to enable disqus comments
+      shortname:  jbuchbinder
+    
+    # Sharing settings
+    sharing:
+      twitter:    true
+      facebook:   true
+      gplus:      true
+      hn:         true
+    
+    # Analytics     
+    analytics:
+      googleid: UA-49191923-1
+        
+    google_font: 'Droid Sans'
+
+...

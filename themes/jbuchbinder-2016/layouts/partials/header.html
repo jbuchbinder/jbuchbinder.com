@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Params.inc.title }} &mdash; {{ .Title }}</title>
+    <link href="https://fonts.googleapis.com/css?family={{ .Site.Params.inc.google_font }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/{{ .Site.Params.inc.logo }}"/>
+    <link href="{{ .Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
+    <meta name="title" content="{{ .Title }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <meta property="og:type"         content="article" />
+    <meta property="og:locale"       content="en_US" />
+    <meta property="og:site_name"    content="{{ .Params.inc.title }}" />
+    <meta property="author:author"   content="https://www.facebook.com/{{ .Params.inc.facebook }}" />
+
+{{ if eq .Title "" }}
+    <meta property="og:title" content="{{ .Params.inc.title }}"/>
+    <meta property="og:description" content="{{ .Params.inc.subtitle }}"/>
+    <meta name="twitter:title"       content="{{ .Params.inc.title }}" />
+    <meta name="twitter:description" content="{{ .Params.inc.subtitle }}" />
+{{ else -}}
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:description" content="{{ .Description }}"/>
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
+{{- end }}
+    <meta property="og:url" content="{{ .Permalink }}"/>
+{{ if isset .Params "cover" }}
+    <meta property="og:image" content="{{ .Params.cover }}"/>
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/{{ .Site.Params.inc.logo }}" />
+{{ else }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Site.Params.inc.logo }}"/>   
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/{{ .Site.Params.inc.logo }}" />
+{{ end }}
+    <meta property="og:site_name" content="{{ .Site.Params.inc.title }}">
+</head>
+<body>
+    
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="/">
+                <img src="/images/{{ .Site.Params.inc.logo }}" />
+            </a>
+            {{ $nav := .Params.nav }}
+            <a href="/" class="home {{ if eq $nav "blog" }}active{{ end }}">Blog</a>
+            {{ range .Site.Params.inc.links }}<a href="{{ .url }}" {{ if eq .menu $nav }}class="active"{{ end }}>{{ .name }}</a>{{ end }}
+        </nav>
+        <nav class="tagline">
+            {{ with .Site.Params.inc.tagline }}<span>{{ . }}</span>{{ end }}
+            {{ with .Site.Params.inc.product_link }}<a href="{{ . }}" class="btn btn-outline">Learn More</a>{{ end }}
+        </nav>
+    </header>
+</section>
+

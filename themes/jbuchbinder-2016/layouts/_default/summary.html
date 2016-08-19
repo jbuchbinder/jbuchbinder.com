@@ -1,0 +1,25 @@
+    <section class="index">
+        {{ if isset .Params "author" }}
+        {{ with .Params.author.image }}<img src="{{ . }}" class="avatar" />{{ end }}
+        {{ else }}
+        {{ with .Site.Params.author.image }}<img src="{{ . }}" class="avatar" />{{ end }}
+        {{ end }}
+        <div>
+            <h2 class="title"><a href="{{ .RelPermalink }}" rel="prefetch">{{ .Title }}</a></h2>
+            {{ with .Description }}<h3>{{ . }}</h3>{{ end }}
+            {{ if isset .Params "excerpt" }}
+            <p>{{ .Params.excerpt }}</p>
+            {{ else }}
+            <p>{{ .Summary }}</p>
+            {{ end }}
+            <div class="meta">
+                {{ if isset .Params "author" }}
+                Written By <address>{{ .Params.author.name }}</address> &mdash;
+                {{ else }}
+                Written By <address>{{ .Site.Params.author.name }}</address> &mdash;
+                {{ end }}
+                <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 1, 2006" }}</time>
+            </div>
+        </div>
+        <hr>
+    </section>

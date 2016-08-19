@@ -1,0 +1,64 @@
+{{ partial "header.html" . }}
+{{ if isset .Params "cover" }}
+<div class="article-cover">
+    <div>
+        <img src="{{ .Params.cover }}" class="image" />
+    </div>
+</div>
+{{ end }}
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
+
+<ul class="breadcrumbs">
+  <li><a href="/">home</a></li>
+  {{ range $index, $element := split $url "/" }}
+    {{ if ne $element "" }}
+      <li><a href="{{ . | absURL }}">{{ . }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+                {{ if isset .Params "author" }}
+                By <address><a rel="author" href="{{ .Params.author.link }}" title="{{ .Params.author.name }}" target="_blank">{{ .Params.author.name }}</a></address> &mdash;
+		{{ end }}
+            </div>
+            <h1 class="title">{{ .Title }}</h1>
+            <h2 class="subtitle">{{ .Description }}</h2>
+        </header>
+
+        <section>
+            {{ .Content }}
+            {{ partial "_social.html" . }}
+        </section>
+
+        <footer>
+            {{ if isset .Params "author" }}
+            <address>
+               {{ if isset .Params "author.image" }}<img src="/images/{{ .Params.author.image }}">{{ end }}
+                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ .Params.author.twitter }}" title="{{ .Params.author_name }}" target="_blank">{{ .Params.author.name }}</a></strong><br>
+                <span class="muted">{{ .Params.author.bio }}</span>
+                </p>
+            </address>
+            {{ else }}
+            <address>
+                <img src="{{ .Site.Params.author.image }}" />
+                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ .Params.Site.author.twitter }}" title="{{ .Site.Params.author.name }}" target="_blank">{{ .Site.Params.author.name }}</a></strong><br>
+                <span class="muted">{{ .Site.Params.author.bio }}</span>
+                </p>
+            </address>
+            {{ end }}
+        </footer>
+
+        {{ with .Site.Params.inc.disqus.shortname }}
+        <section>
+            {{ partial "_disqus.html" . }}
+        </section>
+        {{ end }}
+    </div>
+</article>
+
+{{ partial "footer.html" . }}
