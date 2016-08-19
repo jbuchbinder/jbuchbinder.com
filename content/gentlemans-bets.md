@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Gentleman's Bets"
-date: 2013-10-22 15:42
+date: 2013-10-22T15:42:00Z
 comments: true
 sharing: true
 footer: true

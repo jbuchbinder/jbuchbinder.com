@@ -7,7 +7,7 @@ layout: page
 
 **Current Projects (Work in Progress)**
 
- [1]: /wp-content/images/mem_logo.png
+ [1]: /images/mem_logo.png
 
 ## Blaney Brothers
 

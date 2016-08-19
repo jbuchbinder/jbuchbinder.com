@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<div class="container">
+<article>
+<section>
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      {{ if eq $taxonomyname "tags" }}
+        {{ range $key, $value := $taxonomy }}
+          <li><a href="/tags/{{ $key }}">{{ $key }} ({{ len $value }})</a></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>
+</article>
+</div>
+{{ partial "footer.html" . }}
