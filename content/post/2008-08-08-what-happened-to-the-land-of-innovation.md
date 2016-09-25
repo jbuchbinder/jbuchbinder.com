@@ -18,7 +18,7 @@ We have a pharmaceutical industry which in 1999 brought in around [100 \*billion
  [3]: http://en.wikipedia.org/wiki/Influenza_vaccine
  [4]: http://en.wikipedia.org/wiki/HPV_vaccine
 
-Maybe it’s just easier to keep people buying drugs to allow them to live rather than curing what’s wrong with them. That sounds awful and callous. I could swear there was a [Star Trek episode about just that][5] ….
+Maybe it’s just easier to keep people buying drugs to allow them to live rather than curing what’s wrong with them. That sounds awful and callous. I could swear there was a [Star Trek episode about just that][5] ....
 
  [5]: http://memory-alpha.org/en/wiki/Symbiosis_(episode)
 
@@ -36,7 +36,7 @@ Not to say we have a fully capitalist economy, since we definitely don’t. Our 
  [12]: http://en.wikipedia.org/wiki/Alan_Schwartz
  [13]: http://en.wikipedia.org/wiki/James_Cayne
  [14]: http://www.momentonmoney.com/2008/07/soft-landings-a.html
- [15]: http://www.urbandictionary.com/define.php?term=golden shower
+ [15]: http://www.urbandictionary.com/define.php?term=golden%20shower
 
 Ever since [Saint Ron][16] decided that government regulation was bad, but that we couldn’t trust people to make up their own minds about anything (legislating morality), we’ve seen some nasty, nasty fallout. We imprison [way too many][17] people for drug related offences, since we have to declare war on everything, but somehow we [can’t possibly keep people from dumping crap into our environment][18]. I’m sure if the founding fathers wanted us to all be White and Protestant, they would have written in a “no marriage for teh gays” line right next to the part about this being a Christian country, and how the President has [all encompassing, King-like powers][19]. Oh, wait, they didn’t.
 
@@ -47,7 +47,7 @@ Ever since [Saint Ron][16] decided that government regulation was bad, but that 
 
 Damn, keep getting off track. America. Not innovating.
 
-We’re still using the same damn space shuttle design we made back in [1981][20]. You’d figure in almost thirty years, we would have something a bit more impressive, maybe? How’s that [moon base][21] coming, anyways? Oh, that’s right, we had to divert our attentions towards the terrorists communists. How did that turn out? Did Saint Ron knock the Berlin wall down with one swing of his mighty fifty foot penis? Or did it collapse on itself, as most predicted it would? Yeah, I thought so. Did we ever get back on track? I think not. Our current [moron][22] in chief has been systematically dismantling [the legacy of FDR][23], all while telling us that we should just privatize everything. How is [that][24] working out for you? Shouldn’t they be able to innovate more, since they make profits, being a private company. Fools.
+We’re still using the same damn space shuttle design we made back in [1981][20]. You’d figure in almost thirty years, we would have something a bit more impressive, maybe? How’s that [moon base][21] coming, anyways? Oh, that’s right, we had to divert our attentions towards the <del>terrorists</del> communists. How did that turn out? Did Saint Ron knock the Berlin wall down with one swing of his mighty fifty foot penis? Or did it collapse on itself, as most predicted it would? Yeah, I thought so. Did we ever get back on track? I think not. Our current [moron][22] in chief has been systematically dismantling [the legacy of FDR][23], all while telling us that we should just privatize everything. How is [that][24] working out for you? Shouldn’t they be able to innovate more, since they make profits, being a private company? Fools.
 
  [20]: http://en.wikipedia.org/wiki/Space_shuttle
  [21]: http://en.wikipedia.org/wiki/Colonization_of_the_Moon
@@ -55,7 +55,7 @@ We’re still using the same damn space shuttle design we made back in [1981][20
  [23]: http://memory.loc.gov/learn/features/timeline/depwwii/newdeal/newdeal.html
  [24]: http://ap.google.com/article/ALeqM5iVAF4FNNGCiKCJfNJMp-FCePBQxAD92E5QL00
 
-I just want to see an America where we don’t simply repeat the latest [talking point][25] until it becomes fact as it is spewed by [some fat pill-popping wanker with a microphone][26]. When people are saying “America sucks”, maybe instead of branding them all as traitors, we should be asking “why?”… “Why do you think this great land ain’t so great anymore?”
+I just want to see an America where we don’t simply repeat the latest [talking point][25] until it becomes fact as it is spewed by [some fat pill-popping wanker with a microphone][26]. When people are saying “America sucks”, maybe instead of branding them all as traitors, we should be asking “why?”...“Why do you think this great land ain’t so great anymore?”
 
  [25]: http://www.time.com/time/politics/article/0,8599,1829354,00.html
  [26]: http://www.rushlimbaugh.com/home/today.guest.html
@@ -69,7 +69,7 @@ I want to see an America which isn’t motivated by Nascar, Jerry Springer, the 
 
  [29]: http://www.slowfood.com/
 
-We should be ashamed, but not of our country. We can’t blame \*any\* of this on politicians. After all, besides Diebold and [some stupid wankers on the Supreme Court][30], don’t we put these turkeys where they are? Aren’t we the ones eating the fast food, driving the big SUVs, and [ignoring science in its entirety][31]? We deserve whatever is going to happen to us. Maybe if everything collapses, we’ll have to get off our fast food inflated butts and remember how to innovate. I can only hope.
+We should be ashamed, but not of our country. We can’t blame \*any\* of this on politicians. After all, besides Diebold and [some stupid jackasses on the Supreme Court][30], don’t we put these turkeys where they are? Aren’t we the ones eating the fast food, driving the big SUVs, and [ignoring science in its entirety][31]? We deserve whatever is going to happen to us. Maybe if everything collapses, we’ll have to get off our complacent butts and remember how to innovate. I can only hope.
 
  [30]: http://www.law.cornell.edu/supct/justices/scalia.bio.html
  [31]: http://www.intelligentdesign.org/
@@ -77,3 +77,4 @@ We should be ashamed, but not of our country. We can’t blame \*any\* of this o
 [(Tom Tomorrow perhaps said it best)][32]
 
  [32]: http://www.thismodernworld.org/arc/1991/91Victory-Parade.gif
+
