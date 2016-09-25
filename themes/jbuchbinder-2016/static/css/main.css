@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* CONFIGURATION */
 /* Bodytext font */
 /* Font for headings */
@@ -2276,16 +2277,21 @@ a {
     display: table-cell; }
   .site-nav #navigation {
     padding-right: 0; }
-    .site-nav #navigation a {
-      border: 0;
-      padding: 0.5em 0.9em;
-      display: inline-block; }
-      .site-nav #navigation a.active {
-        background: #ccc;
-        box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
-        border-radius: 10px; }
-      .site-nav #navigation a:hover {
-        color: #2077b2; }
+    .site-nav #navigation ul {
+      display: inline; }
+    .site-nav #navigation ul li {
+      display: inline; }
+      .site-nav #navigation ul li a {
+        color: #444;
+        border: 0;
+        padding: 0.5em 0.9em;
+        display: inline-block; }
+        .site-nav #navigation ul li a.active {
+          background: #ccc;
+          box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+          border-radius: 10px; }
+        .site-nav #navigation ul li a:hover {
+          color: #2077b2; }
     .site-nav #navigation > a, .site-nav #navigation .dropdown-toggle {
       color: #444;
       border: 0;
@@ -2311,6 +2317,121 @@ body.nav-hidden .site-nav {
   top: -100px;
   transition: all 0.35s ease;
   -webkit-transform: translate3d(0px, 0, 0px); }
+
+/* ------------------------------------------
+  NAVIGATION STYLES
+  (+ responsive-nav.css file is loaded in the <head>)
+--------------------------------------------- */
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media only screen and (max-width: 500px) {
+  .site-nav #navigation ul li,
+  .site-nav #navigation ul {
+    display: block;
+    background: #fff; }
+
+  .nav-collapse li {
+    width: 25%;
+    *width: 24.9%;
+    /* IE7 Hack */
+    _width: 19%;
+    /* IE6 Hack */ }
+
+  .brand img {
+    display: none; }
+
+  .nav-collapse a {
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid white; }
+
+  .nav-collapse ul ul a {
+    display: none; } }
+@media screen and (min-width: 40em) {
+  .site-nav #navigation ul li {
+    display: block; }
+
+  .nav-collapse li {
+    width: 25%;
+    *width: 24.9%;
+    /* IE7 Hack */
+    _width: 19%;
+    /* IE6 Hack */ }
+
+  .brand {
+    display: none; }
+
+  .nav-collapse a {
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid white; }
+
+  .nav-collapse ul ul a {
+    display: none; } }
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+@font-face {
+  font-family: "responsivenav";
+  src: url("/css/icons/responsivenav.eot");
+  src: url("/css/icons/responsivenav.eot?#iefix") format("embedded-opentype"), url("/css/icons/responsivenav.ttf") format("truetype"), url("/css/icons/responsivenav.woff") format("woff"), url("/css/icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right; }
+
+.nav-toggle:before {
+  color: #f4421a;
+  /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content: "x"; }
 
 article {
   background: #fff;
@@ -2388,9 +2509,9 @@ article {
     margin: 1.2em -4em 1.2em 0;
     padding: 0; }
     article blockquote p {
-      font-size: 16px;
-      line-height: 1.1;
-      color: #2077b2;
+      font-size: 18px;
+      /* line-height:1.1; */
+      color: #999;
       margin-left: 1em;
       margin-right: 5em;
       /* font-weight:600; */ }
@@ -2837,11 +2958,6 @@ article {
   .site-nav .tagline span {
     display: none; }
 
-  .site-nav #navigation a {
-    display: none; }
-  .site-nav #navigation .brand {
-    display: inline-block; }
-
   .site-footer {
     margin-top: 0;
     padding: 2em 10%;
@@ -2858,5 +2974,3 @@ article {
       margin: 0; }
     .index img {
       display: none; } }
-
-/*# sourceMappingURL=main.css.map */
