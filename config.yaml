@@ -41,6 +41,10 @@ params:
         name: "Music"
         url: "/music/"
         menu: music
+        subitems:
+          -
+            name: "Studio"
+            url: "/studio/"
       -
         name: "Photography"
         url: "/photo/"
@@ -49,6 +53,34 @@ params:
         name: "Pets"
         url: "/pets/"
         menu: pets
+        subitems:
+          -
+            name: "Benji"
+            url: "/pets/benji/"
+          -
+            name: "Ebony"
+            url: "/pets/ebony/"
+          -
+            name: "Gabby"
+            url: "/pets/gabby/"
+          -
+            name: "Isabella"
+            url: "/pets/isabella/"
+          -
+            name: "Ivory"
+            url: "/pets/ivory/"
+          -
+            name: "Maggie"
+            url: "/pets/maggie/"
+          -
+            name: "Muffy"
+            url: "/pets/muffy/"
+          -
+            name: "Stan"
+            url: "/pets/stan/"
+          -
+            name: "TT"
+            url: "/pets/tt/"
       -
         name: "Quotes"
         url: "/quotes/"

@@ -1,3 +1,12 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1000px) {
     
     .tagline span {
@@ -16,13 +25,17 @@
 }
 
 @media (max-width: 720px) {
+
+    .navbar-brand {
+        margin-top: -5px;
+    }
     
     article {
         padding-top:30px;
         
         .container > header, .container > section, .container > footer {
             padding:0;
-            margin:1.5em 10%;
+            margin:1.5em 5%;
         }
         
         .container > footer {
@@ -42,6 +55,7 @@
             
             p {
                 font-size:1em;
+                margin-right:1em;
             }
         }
         
@@ -86,19 +100,7 @@
     .site-nav .tagline span {
         display:none;
     }
-    
-    .site-nav {
-        #navigation {
-            a {
-                display:none;
-            }
-            
-            .brand {
-                display:inline-block;
-            } 
-        }
-    }
-    
+   
     .site-footer {
         margin-top:0;
         padding:2em 10%;

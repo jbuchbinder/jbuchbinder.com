@@ -1,0 +1,62 @@
+
+<!--
+<section class="site-nav">
+    <header>
+        <nav id="navigation" class="nav-collapse">
+            <a class="brand" href="/">
+                <img src="/images/{{ .Site.Params.inc.logo }}" />
+            </a>
+            {{ $nav := .Params.nav }}
+            <ul>
+            <li><a href="/" class="home {{ if eq $nav "blog" }}active{{ end }}">Blog</a></li>
+            {{ range .Site.Params.inc.links }}<li><a href="{{ .url }}" {{ if eq .menu $nav }}class="active"{{ end }}>{{ .name }}</a></li>{{ end }}
+            </ul>
+        </nav>
+        <nav class="tagline">
+            {{ with .Site.Params.inc.tagline }}<span>{{ . }}</span>{{ end }}
+            {{ with .Site.Params.inc.product_link }}<a href="{{ . }}" class="btn btn-outline">Learn More</a>{{ end }}
+        </nav>
+    </header>
+</section>
+-->
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/images/{{ .Site.Params.inc.logo }}" width="32" height="32" />
+            </a>
+            {{ $nav := .Params.nav }}
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/" class="home {{ if eq $nav "blog" }}active{{ end }}">Blog</a></li>
+              {{ range .Site.Params.inc.links }}
+              {{ if .subitems }}
+              <li class="dropdown">
+                <a class="dropdown-toggle {{ if eq .menu $nav }}active{{ end }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .name }} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ .url }}">{{ .name }}</a></li>
+                  <li role="separator" class="divider"></li>
+                  {{ range .subitems }}
+                  <li><a href="{{ .url }}">{{ .name }}</a></li>
+                  {{ end }}
+                </ul>
+              </li>
+              {{ else }}
+              <li><a href="{{ .url }}" {{ if eq .menu $nav }}class="active"{{ end }}>{{ .name }}</a></li>{{ end }}
+              {{ end }}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">/home/jeff/blog</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
