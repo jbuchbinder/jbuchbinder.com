@@ -1,6 +1,10 @@
     <section class="index">
         {{ if isset .Params "author" }}
+	{{ if isset .Params.author "image" }}
         {{ with .Params.author.image }}<img src="{{ . }}" class="avatar" />{{ end }}
+        {{ else }}
+        {{ with .Site.Params.author.image }}<img src="{{ . }}" class="avatar" />{{ end }}
+	{{ end }}
         {{ else }}
         {{ with .Site.Params.author.image }}<img src="{{ . }}" class="avatar" />{{ end }}
         {{ end }}
@@ -14,7 +18,11 @@
             {{ end }}
             <div class="meta">
                 {{ if isset .Params "author" }}
+		{{ if isset .Params.author "name" }}
                 Written By <address>{{ .Params.author.name }}</address> &mdash;
+		{{ else }}
+                Written By <address>{{ .Site.Params.author.name }}</address> &mdash;
+		{{ end }}
                 {{ else }}
                 Written By <address>{{ .Site.Params.author.name }}</address> &mdash;
                 {{ end }}

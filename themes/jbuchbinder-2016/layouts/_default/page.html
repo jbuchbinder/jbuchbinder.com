@@ -23,7 +23,9 @@
 </ul>
 
                 {{ if isset .Params "author" }}
+		{{ if isset .Params.author "name" }}
                 By <address><a rel="author" href="{{ .Params.author.link }}" title="{{ .Params.author.name }}" target="_blank">{{ .Params.author.name }}</a></address> &mdash;
+		{{ end }}
 		{{ end }}
             </div>
             <h1 class="title">{{ .Title }}</h1>
@@ -39,9 +41,11 @@
             {{ if isset .Params "author" }}
             <address>
                {{ if isset .Params "author.image" }}<img src="/images/{{ .Params.author.image }}">{{ end }}
+		{{ if isset .Params.author "twitter" }}
                 <p>Written by <strong><a rel="author" href="https://twitter.com/{{ .Params.author.twitter }}" title="{{ .Params.author_name }}" target="_blank">{{ .Params.author.name }}</a></strong><br>
                 <span class="muted">{{ .Params.author.bio }}</span>
                 </p>
+		{{ end }}
             </address>
             {{ else }}
             <address>
