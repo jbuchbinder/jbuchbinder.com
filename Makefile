@@ -8,5 +8,5 @@ build:
 	hugo
 
 deploy:
-	rsync -rvtupP public/* $(USERNAME)@$(SERVER):$(SITE)/
+	rsync -rvtupP --delete public/* $(USERNAME)@$(SERVER):$(SITE)/
 
