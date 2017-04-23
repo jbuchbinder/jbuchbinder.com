@@ -1,6 +1,6 @@
 SITE     := jbuchbinder.com
 USERNAME := ourexchange
-SERVER   := richard-bassett.ourexchange.net
+SERVER   := ourexchange.net
 
 all: build deploy
 
