@@ -128,6 +128,8 @@ description: Quote file
 
 "Everything is a poison, nothing is a poison.  It is the dose that makes the poison." - Paracelsus
 
+"Everyone you will ever meet knows something you don't." - Bill Nye
+
 ## Money
 
 "Money is the enemy of the thoughtfully good."
@@ -314,6 +316,8 @@ description: Quote file
 "A pox on all those who tear down the old merely to make way for something new." - Stan Rogers, Canadian songwriter (forward from *Songs from Fogarty's Cove*)
 
 "Socialism never took root in America because the poor see themselves not as an exploited proletariat but as temporarily embarrassed millionaires." - John Steinbeck
+
+"It is the way one treats his inferiors more than the way he treats his equals which reveals one’s real character." - Charles Bayard Miliken
 
 ## Stupidity
 
