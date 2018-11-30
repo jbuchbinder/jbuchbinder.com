@@ -5,7 +5,7 @@ nav: in-memoriam
 cover: /images/mike-praytor.jpg
 ---
 
-{% img /images/mike-praytor.jpg 'Mike Praytor' %}
+![Mike Praytor](/images/mike-praytor.jpg)
 
 From [this online obit][1]:
 

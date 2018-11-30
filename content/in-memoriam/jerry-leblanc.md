@@ -24,9 +24,9 @@ nav: in-memoriam
 [![Rememberances][3]][3]
 [![Rememberances][4]][4]
 
- [2]: /in-memoriam/jerry-leblanc/images/IMG_20140823_124206.jpg
- [3]: /in-memoriam/jerry-leblanc/images/IMG_20140823_124222.jpg
- [4]: /in-memoriam/jerry-leblanc/images/IMG_20140823_124239.jpg
+ [2]: /images/IMG_20140823_124206.jpg
+ [3]: /images/IMG_20140823_124222.jpg
+ [4]: /images/IMG_20140823_124239.jpg
 
 A few brief rememberances. *(These are my "notes" from the memorial service,
 which help me remember it better.)*
