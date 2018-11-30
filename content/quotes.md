@@ -267,6 +267,8 @@ description: Quote file
 
 "Patriotism is, fundamentally, a conviction that a particular country is the best in the world because you were born in it ... " - George Bernard Shaw (from *The World*, November 15, 1893)
 
+"Wow, it's almost like job growth is a side effect of capitalism, and not an end goal, and those who own the capital give out scraps with the utmost reluctance to the laborers that are necessary for them to grow said capital. If only there had been two hundred years of modern economic study to realize this." - [Johnny Wright](https://www.facebook.com/johnny.wright1)
+
 ## Religion
 
 "Christians and other faiths have long tolerated violence in the name of ‘god’ and the extremists in their midst. You, and anybody who calls themselves ‘Christian’ own this as much as the Saudi royal family own the attacks of September 11, 2001. Maybe you have not particiapted in atrocity but neither have I heard a loud voice condemning this sort of behavior from Christians, until after the fact. In the end, it is a superstition that historically has killed far more people than it has saved and that’s just a fact." – [Margaret][37] on [crooksandliars][38].
