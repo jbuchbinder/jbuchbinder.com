@@ -10,8 +10,8 @@ JohnFest is the name I gave John Meyer’s unnamed summer music festival.
 
 ### Recordings 
 
- * **2008** – [39 MP3 tracks on mediafire.com](http://www.mediafire.com/?sharekey=ce102bd7f2d1c5e5ab1eab3e9fa335cabfe111f221f499a8)
- * **2009** – [25 MP3 tracks on mediafire.com](http://www.mediafire.com/?sharekey=ce102bd7f2d1c5e595af63b7d44918aa7839631b62f126a4)
+ * **2008** – [39 MP3 tracks on mediafire.com](https://www.mediafire.com/folder/zkcg3gcz0vuru/JohnFest#2tdd1palim9jm)
+ * **2009** – [25 MP3 tracks on mediafire.com](https://www.mediafire.com/folder/zkcg3gcz0vuru/JohnFest#znklv3qouvhlc)
 
 ### Recording Information 
 

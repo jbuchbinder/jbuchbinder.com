@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>QV Fire Tone Generator</title>
+    <!-- Social networking tags -->
+    <meta property="fb:app_id" content="159544250739435">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="QV Fire Tone Generator">
+    <meta property="og:description" content="CT Quinebaug Valley Fire Tone Generator">
+    <meta property="og:image" content="https://jbuchbinder.com/images/QV-Collage.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:url" content="https://jbuchbinder.com/apps/qv-tones/">
+    <meta name="twitter:title" content="QV Fire Tone Generator">
+    <meta name="twitter:description" content="CT Quinebaug Valley Fire Tone Generator">
+    <meta name="twitter:image" content=" https://jbuchbinder.com/images/QV-Collage.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style type="text/css">
+        body {
+            font-family: verdana;
+            width: 320px;
+            background-color: linear-gradient(0deg, #fff, #aaa);
+        }
+        
+        #departmentTones {
+            padding: 5px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+        
+        #specifyTones {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        button {
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+
+        select {
+            background: #fff;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+
+        input[type='text'] {
+            padding: 5px;
+        }
+    </style>
+    <script language="javascript">
+        function prefab(tn) {
+            if (tn == '') {
+                alert("Please select a department");
+                return
+            }
+                
+            var tones = tn.split(",");
+            generateTone(tones[0], tones[1], document.getElementById("record").checked);
+                
+            // Reset to nothing
+            document.getElementById("departmentTones").selectedIndex = 0;
+        }
+        
+        function generateTone(first, second, record) {
+            if (isNaN(first) || isNaN(second)) {
+                alert("Both frequencies need to be actual numbers");
+                return
+            }
+            
+            var context = new(window.AudioContext || window.webkitAudioContext)();
+	    var mediaRecorder;
+	    var audio;
+	    var chunks = [];
+            var osc = context.createOscillator();
+            osc.type = 'sine';
+            osc.frequency.value = first;
+            osc.frequency.setValueAtTime(second, context.currentTime + 2);
+	    if (record) {
+	    	var dest = context.createMediaStreamDestination();
+		audio = document.createElement('audio');
+	    	mediaRecorder = new MediaRecorder(dest.stream);
+	    	osc.connect(dest);
+		mediaRecorder.ondataavailable = function(evt) {
+			// push each chunk (blobs) in an array
+			chunks.push(evt.data);
+		};
+		mediaRecorder.onstop = function(evt) {
+			// Make blob out of our blobs, and open it.
+			var blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
+			audio.src = URL.createObjectURL(blob);
+		};
+	    } else {
+            	osc.connect(context.destination);
+	    }
+	    if (record) {
+                mediaRecorder.start();
+	    }
+            osc.start();
+            osc.stop(context.currentTime + 4);
+            if (record) {
+		setTimeout(function() {
+                    mediaRecorder.stop();
+		}, 4000);
+            }
+        }
+    </script>
+</head>
+<body>
+  <h2>
+    QV Fire Tone Generator
+  </h2>
+  
+  <div>
+    <select id="departmentTones">
+      <option value="">SELECT A DEPARTMENT</option>
+      <option value="910,1344">Ashford</option>
+      <option value="472.5,1530">Eastford</option>
+      <option value="2465,1530">Brooklyn - East Brooklyn</option>
+      <option value="2465,871">Brooklyn - Mortlake</option>
+      <option value="2465,1800">Brooklyn - Mortlake Ambulance</option>
+      <option value="2465,950">Canterbury</option>
+      <option value="2807,910">Chaplin</option>
+      <option value="2807,950">Hampton</option>
+      <option value="2807,2361">Hampton/Chaplin Ambulance</option>
+      <option value="1180,1901">Killingly - Attawaugan #62</option>
+      <option value="1180,799">Killingly - Dayville #63</option>
+      <option value="1180,992">Killingly - East Killingly #64</option>
+      <option value="1180,1598">Killingly - KB Ambulance</option>
+      <option value="1180,2465">Killingly - South Killingly #65</option>
+      <option value="1180,435.3">Oneco</option>
+      <option value="2465,992">Plainfield</option>
+      <option value="2465,1232">Plainfield - Atwood Hose</option>
+      <option value="2465,399.2">Plainfield - Central Village</option>
+      <option value="2465,435.3">Plainfield - Moosup</option>
+      <option value="2465,701">Plainfield - Moosup Ambulance</option>
+      <option value="2465,731">Pomfret #70</option>
+      <option value="472.5,990">Putnam</option>
+      <option value="1598,1669">Putnam - East Putnam</option>
+      <option value="2465,1901">QV Medic</option>
+      <option value="950,1232">Scotland</option>
+      <option value="1180,399.2">Sterling</option>
+      <option value="1598,399">Thompson - Community</option>
+      <option value="1598,435.3">Thompson - Community Ambulance</option>
+      <option value="1598,799">Thompson - East Thompson</option>
+      <option value="1598,701">Thompson - Quinebaug</option>
+      <option value="1598,871">Thompson - Thompson Hill</option>
+      <option value="1598,731">Thompson - West Thompson</option>
+      <option value="474.8,799">Woodstock</option>
+      <option value="474.8,950">Woodstock - Woodstock Ambulance</option>
+      <option value="474.8,1598">Woodstock - Muddy Brook</option>
+    </select>
+    <button id="deptToneGo" onClick="prefab(document.getElementById('departmentTones').value)">
+      Play
+    </button>
+  </div>
+  
+  <div id="specifyTones">
+    <input type="text" id="first" name="first" placeholder="First Tone (hz)" />
+    <input type="text" id="second" name="second" placeholder="Second Tone (hz)" />
+    <button id="gentone" onClick="generateTone(document.getElementById('first').value, document.getElementById('second').value)">
+      Generate Tone
+    </button>
+  </div>
+
+  <div>
+    <input type="checkbox" id="record" name="record">
+    <label for="record">Record Audio</label>
+  </div>
+
+</body>
+</html>

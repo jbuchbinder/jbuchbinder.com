@@ -11,7 +11,7 @@ The Stonewall Tavern in Eagleville, CT hosts an open mic night every Tuesday nig
 
 I usually record the sets and put them online, as well as occasionally take pictures.
 
-*   MP3 Recordings : [on Mediafire](https://www.mediafire.com/folder/zkcg3gcz0vuru/JohnFest)
+*   MP3 Recordings : [on Mediafire](http://www.mediafire.com/folder/7wri472510iac/Open_Mic_at_the_Stonewall_Tavern)
 
 For those interested in the particulars, I record everything using a [Thinkpad T61][2] running [Ubuntu Linux][3] connected to a [Behringer UCA-202][4] device connected via the USB port. All cutting was done with [mp3cut][5] (using normalization), after finding positions using [Audacity][6]. I have been using the service provided by the nice people at [MediaFire][7] to provide free file hosting services.
 
