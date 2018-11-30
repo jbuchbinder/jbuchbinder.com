@@ -8,6 +8,9 @@ categories:
 - Film Theory
 comments: true
 cover: /images/2018/11/cv-13.jpg
+cover_height: 720
+cover_width: 1280
+url: /2018/11/30/christmas-vacation-and-buster-keaton/
 draft: false
 ---
 
