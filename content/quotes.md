@@ -130,6 +130,8 @@ description: Quote file
 
 "Everyone you will ever meet knows something you don't." - Bill Nye
 
+"Nothing stays around as long as an interim solution." - [Sique](https://slashdot.org/~Sique) on [slashdot](https://hardware.slashdot.org/comments.pl?sid=13401298&cid=58119844)
+
 ## Money
 
 "Money is the enemy of the thoughtfully good."
