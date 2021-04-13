@@ -26,3 +26,5 @@ I love playing with chew toys …
 There are more pictures of me available [on Flickr][5].
 
  [5]: http://www.flickr.com/photos/whatsyourmeme/tags/muppet
+
+*Update: Isabella died on May 1st, 2020 some time during the night. Thanks to all of her friends who have sent their condolences.*
