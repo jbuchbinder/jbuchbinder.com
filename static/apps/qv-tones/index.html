@@ -49,6 +49,23 @@
         input[type='text'] {
             padding: 5px;
         }
+
+        div.changelog {
+            border: 1px dashed;
+            padding: 0.5em 1em 0.5em 1em;
+    	}
+
+        div.changelog h3 {
+            border-bottom: 1px solid;
+            padding-bottom: 2px;
+            margin-top: 0;
+        }
+        
+        div.changelog p {
+            font-family: sans-serif;
+            font-style: italic;
+            color: #777777;
+        }
     </style>
     <script language="javascript">
         function prefab(tn) {
@@ -71,39 +88,39 @@
             }
             
             var context = new(window.AudioContext || window.webkitAudioContext)();
-	    var mediaRecorder;
-	    var audio;
-	    var chunks = [];
+            var mediaRecorder;
+            var audio;
+            var chunks = [];
             var osc = context.createOscillator();
             osc.type = 'sine';
             osc.frequency.value = first;
             osc.frequency.setValueAtTime(second, context.currentTime + 2);
-	    if (record) {
-	    	var dest = context.createMediaStreamDestination();
-		audio = document.createElement('audio');
-	    	mediaRecorder = new MediaRecorder(dest.stream);
-	    	osc.connect(dest);
-		mediaRecorder.ondataavailable = function(evt) {
-			// push each chunk (blobs) in an array
-			chunks.push(evt.data);
-		};
-		mediaRecorder.onstop = function(evt) {
-			// Make blob out of our blobs, and open it.
-			var blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
-			audio.src = URL.createObjectURL(blob);
-		};
-	    } else {
+            if (record) {
+            	var dest = context.createMediaStreamDestination();
+        	audio = document.createElement('audio');
+            	mediaRecorder = new MediaRecorder(dest.stream);
+            	osc.connect(dest);
+        	mediaRecorder.ondataavailable = function(evt) {
+        		// push each chunk (blobs) in an array
+        		chunks.push(evt.data);
+        	};
+        	mediaRecorder.onstop = function(evt) {
+        		// Make blob out of our blobs, and open it.
+        		var blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
+        		audio.src = URL.createObjectURL(blob);
+        	};
+            } else {
             	osc.connect(context.destination);
-	    }
-	    if (record) {
+            }
+            if (record) {
                 mediaRecorder.start();
-	    }
+            }
             osc.start();
             osc.stop(context.currentTime + 4);
             if (record) {
-		setTimeout(function() {
+        	setTimeout(function() {
                     mediaRecorder.stop();
-		}, 4000);
+        	}, 4000);
             }
         }
     </script>
@@ -183,7 +200,7 @@
 
   <hr/>
 
-  <div>
+  <div class="changelog">
     <h3>Changelog</h3>
     <p>Fri Jul 22 2022 : Added some missing tones.</p>
     <p>Fri Oct 11 2019 : Correct some tones.</p>
