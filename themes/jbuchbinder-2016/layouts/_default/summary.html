@@ -19,14 +19,16 @@
             <div class="meta">
                 {{ if isset .Params "author" }}
 		{{ if isset .Params.author "name" }}
-                Written By <address>{{ .Params.author.name }}</address> &mdash;
+                Written By <address>{{ .Params.author.name }}</address>
 		{{ else }}
-                Written By <address>{{ .Site.Params.author.name }}</address> &mdash;
+                Written By <address>{{ .Site.Params.author.name }}</address>
 		{{ end }}
                 {{ else }}
-                Written By <address>{{ .Site.Params.author.name }}</address> &mdash;
+                Written By <address>{{ .Site.Params.author.name }}</address>
                 {{ end }}
-                <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 1, 2006" }}</time>
+		{{ if not .Date.IsZero }}
+                &mdash; <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 1, 2006" }}</time>
+		{{ end }}
             </div>
         </div>
         <hr>
