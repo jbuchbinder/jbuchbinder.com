@@ -3,7 +3,7 @@ title: Bob Thurston
 layout: page
 nav: in-memoriam
 cover: /images/bob_thurston_drawing.jpg
-description: Passedon on July 17th, 2012
+description: Passed on on July 17th, 2012
 ---
 
 [![Bob Thurston][2]][2]
