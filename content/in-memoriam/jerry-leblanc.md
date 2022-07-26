@@ -2,6 +2,7 @@
 title: Jerome "Jerry" LeBlanc
 layout: page
 nav: in-memoriam
+description: Passed on August 16th, 2014
 ---
 
 [![Jerry LeBlanc][1]][1]

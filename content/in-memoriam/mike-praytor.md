@@ -3,6 +3,7 @@ title: Mike Praytor
 layout: page
 nav: in-memoriam
 cover: /images/mike-praytor.jpg
+description: Passed on February 2nd, 2008
 ---
 
 ![Mike Praytor](/images/mike-praytor.jpg)

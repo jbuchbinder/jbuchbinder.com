@@ -2,6 +2,7 @@
 title: Jonah Gilbert
 layout: page
 nav: in-memoriam
+description: Passed on January 7th, 2014
 ---
 
 ![Jonah Gilbert](/in-memoriam/jonah-gilbert/jonah-gilbert.jpg "Jonah Gilbert")

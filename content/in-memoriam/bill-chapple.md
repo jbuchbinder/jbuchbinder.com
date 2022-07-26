@@ -3,6 +3,7 @@ title: Bill Chapple
 layout: page
 nav: in-memoriam
 cover: /images/chapple04.jpeg
+description: Passed on July 9th, 2014
 ---
 
 [![Bill Chapple][1]][1]
