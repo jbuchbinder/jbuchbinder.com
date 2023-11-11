@@ -11,7 +11,7 @@ layout: page
 
 Neil deGrasse Tyson [tweeted this](https://twitter.com/neiltyson/status/748157273789300736) last week.
 
-![](http://66.media.tumblr.com/3044fde3c2cc7c6b027c736aab18ebfe/tumblr_o9pdz2lboS1vske81o1_500.png)
+![](/images/tumblr_o9pdz2lboS1vske81o1_500.png)
 
 It received a pretty negative reaction. [Outright loathing and comparisons to the French Revolution](http://thefederalist.com/2016/07/01/neil-degrasse-tysons-rationalia-would-be-a-terrible-country/) from the Right; [sneering disdain and comparisons to the Third Reich](http://www.slate.com/articles/health_and_science/science/2016/07/neil_degrasse_tyson_wants_a_nation_ruled_by_evidence_but_evidence_explains.html) from the Left; [patronizing annoyance](http://archive.is/cR9LP) from science journalists.
 
@@ -31,7 +31,7 @@ The notion is that we’re sadly flawed people, incapable of really thinking cle
 
 We dither on with worries about [the repugnant conclusion](http://plato.stanford.edu/entries/repugnant-conclusion/) while we spend [five times as much](http://money.cnn.com/2015/02/11/news/companies/lottery-spending/) on lottery tickets as on books. We’re endangered by cold, brutal utilitarianism? We are dying from a lack of cold, brutal utilitarianism. Literally, given how [inefficient](http://www.theatlantic.com/health/archive/2012/09/how-the-us-health-care-system-wastes-750-billion-annually/262106/) our medical system is.
 
-![Before I offend you guys, enjoy this bird with arms as thanks for getting this far.](http://3.bp.blogspot.com/-olG1Ryhidt4/VOaaAD9fuHI/AAAAAAAAXsk/RHRLeOeeZvg/s1600/2015.02.20%2B%CE%A6%CE%BF%CE%B2%CE%BF%CF%8D%2B%CF%84%CE%BF%CF%85%CF%82%2B%CE%BC%CE%B9%CE%BA%CF%81%CE%BF%CE%B1%CF%83%CF%84%CE%BF%CF%8D%CF%82%2B%CE%BA%CE%B1%CE%B9%2B%CE%B4%CE%B7%2B%CF%84%CE%BF%CF%85%CF%82%2B%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B5%CF%81%CE%AF%CE%B6%CE%BF%CE%BD%CF%84%CE%B5%CF%82.png)
+![Before I offend you guys, enjoy this bird with arms as thanks for getting this far.](/images/2015.02.20-bird-with-arms.jpg)
 
 [Content warning: Unsavory implications, ideas historically linked with bigotry, mental health, denigration of certain careers.]
 
@@ -45,7 +45,6 @@ I'll put my money where my mouth is. There are Blue Facts and Red Facts, right? 
 The list is in some ways redundant--I really only need two, not four of these--but I wanted to pick a positive statement for each. There are likely also facts which are just plain poorly-known without having strong political valence, e.g., [allowing children to skip grades](https://www.bostonglobe.com/ideas/2014/03/15/the-poor-neglected-gifted-child/rJpv8G4oeawWBBvXVtZyFM/story.html) is good for them in the long run; [microdoses of lithium](http://www.nytimes.com/2014/09/14/opinion/sunday/should-we-all-take-a-bit-of-lithium.html?_r=0) prevent suicide; [we don’t actually know how to educate people](http://slatestarcodex.com/2014/05/23/ssc-gives-a-graduation-speech/) and this is [wasting time and treasure](http://slatestarcodex.com/2015/06/06/against-tulip-subsidies/).
 
 So--and I’m serious about this--tell me why we shouldn’t steer the ship of state toward Rationalia. Because at this point, I can’t see any good reason not to, and everyone out there seems to think I’m obviously wrong. Someone’s made a mistake.
-
 
 ## [Hugh Blumenfeld](https://www.facebook.com/hugh.blumenfeld)'s Response
 

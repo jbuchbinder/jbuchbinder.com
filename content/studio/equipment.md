@@ -8,23 +8,23 @@ My studio is an anomaly, in that it does not use "Pro Tools" or any other commer
 **Hardware** 
 
 *   *Computer* – AMD Athlon64/X2 4000 
-*   *Multitrack Audio Card* – [RME Hammerfall 9652](http://www.rme-audio.de/english/hammer/d9652.htm)
-*   *A/D D/A Converter* - [Behringer Ultragain Pro-8 Digital ADA8000](http://www.behringer.com/ADA8000/) x 2 = 16 channels in, 16 channels out
-*   *MIDI Machine Controller* – [Behringer BCF-2000](http://www.behringer.com/BCF2000/index.cfm)
+*   *Multitrack Audio Card* – [RME Hammerfall 9652](http://web.archive.org/web/20020614005234/http://www.rme-audio.de/english/hammer/d9652.htm)
+*   *A/D D/A Converter* - [Behringer Ultragain Pro-8 Digital ADA8000](https://www.behringer.com/product.html?modelCode=P0187) x 2 = 16 channels in, 16 channels out
+*   *MIDI Machine Controller* – [Behringer BCF-2000](https://www.behringer.com/product.html?modelCode=P0246)
 
 **Software** 
 
 *   *Operating System* – [Ubuntu Studio](http://ubuntustudio.org). *(Linux with a patched realtime kernel)*
 *   *Multitrack DAW* – [ardour](http://ardour.org/) v2.3.1
 *   *Mastering* – [jamin](http://jamin.sf.net) v0.95.0
-*   *Interconnect* – [JACK](http://jackit.sf.net/) Audio Connection Kit
-*   *Drum Sequencer* – [Hydrogen](http://hydrogen.sf.net/) v0.9.3
+*   *Interconnect* – [JACK](https://jackaudio.org/) Audio Connection Kit
+*   *Drum Sequencer* – [Hydrogen](http://hydrogen-music.org/) v0.9.3
 
 **Mics and Accessories** 
 
 *   [Rane MH-4](http://www.fullcompass.com/ImageFromDB.aspx?srctbl=doc&imgid=558) Mojo series headphone distributor
 *   Behringer [HA-8000](http://www.behringer.com/HA8000/index.cfm?lang=ENG) 8 port headphone distributor 
-*   Trace Elliot GP12 Series 6 instrument preamp
+*   Trace Elliot [GP12 Series 6](https://www.fanaticguitars.com/en/producto/trace-elliot-series-6-gp12x-bass-preamp-second-hand/) instrument preamp
 *   Yamaha [HS 50-M](http://www.yamaha.com/yamahavgn/CDA/ContentDetail/ModelSeriesDetail/0,,CNTID%253D49338%2526CTID%253D560744,00.html) near-field monitors
 *   [Auralex](http://www.auralex.com/) sound proofing / acoustic management
 *   [dbx 262](http://www.starlight-online.com/audio/dbx/262.htm) Stereo compressor
@@ -38,7 +38,7 @@ My studio is an anomaly, in that it does not use "Pro Tools" or any other commer
 *   Shure [PGDMK4](http://www.shure.com/ProAudio/Products/WiredMicrophones/us_pro_PGDMK4-XLR_content) drum mic kit
 *   … more to be listed … 
 
-In addition to everything listed above, all press materials are prepared with open-source design tools such as [GIMP](http://gimp.org/), [Scribus](http://www.scribus.org.uk/) and [Inkscape](http://inkscape.org/).
+In addition to everything listed above, all press materials are prepared with open-source design tools such as [GIMP](http://gimp.org/), [Scribus](https://www.scribus.net/) and [Inkscape](http://inkscape.org/).
 
 **Prospective Equipment** 
 

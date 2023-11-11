@@ -17,7 +17,7 @@ For those interested in the particulars, I record everything using a [Thinkpad T
 
  [2]: http://shop.lenovo.com/us/notebooks/thinkpad/t-series
  [3]: http://www.ubuntu.com/
- [4]: http://www.behringer.com/uca202/index.cfm?lang=eng
+ [4]: https://www.behringer.com/product.html?modelCode=P0484
  [5]: http://scara.com/mp3cut/
  [6]: http://audacity.sourceforge.net/
  [7]: http://www.mediafire.com/

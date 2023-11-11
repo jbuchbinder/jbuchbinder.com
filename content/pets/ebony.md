@@ -9,7 +9,6 @@ cover: http://farm1.staticflickr.com/63/165931736_78f834dec2_d.jpg
 
 Hi, my name is **Ebony**, and I’m a rottweiler/shepherd mix.
 
-
 I was born in 1991, and I’m an only “child”, since all of my brothers and sisters were killed by my mom’s owner.
 
 My nicknames include “Snoo”, “Eb”, “Ebanu”, “Joe Isuzu”, “Eba-snoo”, “Snoo-zoo” and a lot more like those.

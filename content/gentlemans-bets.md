@@ -44,7 +44,7 @@ coffee at the end of the bet period.
 		<td>J: No epidemic<br/>C: Epidemic</td>
 		<td>2</td>
 		<td>2014-12-31</td>
-		<td>Jeff</td>
+		<td>Jeff (but Chris won in the long term -- COVID-19)</td>
 	</tr>
 
 	<tr>

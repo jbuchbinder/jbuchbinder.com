@@ -5,6 +5,7 @@ nav: in-memoriam
 description: Memorial pages for friends and family
 ---
 
+* [Dr Irving Buchbinder](/in-memoriam/irving-buchbinder) - Physician, activist, humanitarian, and my father
 * [Bill Chapple](/in-memoriam/bill-chapple) - Musician, neurobiologist, and one of the foremost authorities on hermit crabs
 * [Bill Jordan](/in-memoriam/bill-jordan) - Local antique dealer and fountain of knowledge
 * [Bob Thurston](/in-memoriam/bob-thurston) - Violinist

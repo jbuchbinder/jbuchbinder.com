@@ -5,11 +5,9 @@ layout: page
 
 ### Server Setup
 
-Install [SlugOS/BE][1] with:  
+Install [SlugOS/BE](http://www.nslu2-linux.org/wiki/SlugOS/SlugOSBE) with:  
 • USB hub  
 • USB/serial adapter attached to F-F 9 port RS232 cable
-
- [1]: http://www.nslu2-linux.org/wiki/SlugOS/SlugOSBE
 
 Install serial support:  
 ```
@@ -200,7 +198,5 @@ Add:
 ## Alternate Method
 
 You can also use [conman](https://github.com/dun/conman) (Console Manager) to do the same thing. I have an NSLU2 package available here:  
-[http://www.mediafire.com/file/tzkmt9jnnyx/conman\_0.2.3-1\_armeb.ipk][2].
-
- [2]: http://www.mediafire.com/file/tzkmt9jnnyx/conman_0.2.3-1_armeb.ipk
+[http://www.mediafire.com/file/tzkmt9jnnyx/conman\_0.2.3-1\_armeb.ipk](ttp://www.mediafire.com/file/tzkmt9jnnyx/conman_0.2.3-1_armeb.ipk).
 

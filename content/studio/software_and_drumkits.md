@@ -5,11 +5,8 @@ layout: page
 
 Since everything in the studio is community-software (opensource software) driven, I’m making anything that I cobble together or find useful available.
 
-**[Hydrogen][1] Drumkits** 
-*   [Pearl v0.1][2]: basic Pearl drumset sound
-
- [1]: http://www.hydrogen-music.org/
- [2]: http://prdownloads.sourceforge.net/linuxrpms/Pearl-0.1.h2drumkit
+**[Hydrogen](http://www.hydrogen-music.org/) Drumkits** 
+*   [Pearl v0.1](http://prdownloads.sourceforge.net/linuxrpms/Pearl-0.1.h2drumkit): basic Pearl drumset sound
 
 * * *
 

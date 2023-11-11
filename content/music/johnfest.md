@@ -15,10 +15,10 @@ JohnFest is the name I gave John Meyer’s unnamed summer music festival.
 
 ### Recording Information 
 
- * *Recording Device* : [IBM/Lenovo Thinkpad T61](http://shop.lenovo.com/us/notebooks/thinkpad/t-series)
+ * *Recording Device* : [IBM/Lenovo Thinkpad T61](https://thinkpads.com/t61/)
  * *Operating System* : [Ubuntu 8.04 / 9.04](http://www.ubuntu.com/)
- * *Audio Interface* : [Behringer UCA202](http://www.behringer.com/uca202/index.cfm?lang=eng)
- * *Processing Chain* : [audacity](http://audacity.sourceforge.net/) -> [mp3cut](http://mp3cut.sourceforge.net/) -> [mp3gain](http://mp3gain.sourceforge.net/)
+ * *Audio Interface* : [Behringer UCA202](https://www.behringer.com/product.html?modelCode=P0484)
+ * *Processing Chain* : [audacity](https://www.audacityteam.org/) -> [mp3cut](http://mp3cut.sourceforge.net/) -> [mp3gain](http://mp3gain.sourceforge.net/)
 
 ### More recording information
 
