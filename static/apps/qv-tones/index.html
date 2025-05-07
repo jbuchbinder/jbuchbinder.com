@@ -1,4 +1,4 @@
-<html>
+<html data-bs-theme="dark">
 <head>
     <title>QV Fire Tone Generator</title>
     <!-- Social networking tags -->
@@ -14,42 +14,10 @@
     <meta name="twitter:description" content="CT Quinebaug Valley Fire Tone Generator">
     <meta name="twitter:image" content=" https://jbuchbinder.com/images/QV-Collage.jpg">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
     <style type="text/css">
-        body {
-            font-family: verdana;
-            width: 320px;
-            background-color: linear-gradient(0deg, #fff, #aaa);
-        }
-        
-        #departmentTones {
-            padding: 5px;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-        }
-        
-        #specifyTones {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        
-        button {
-            background-color: #fff;
-            padding: 5px;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-        }
-
-        select {
-            background: #fff;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-        }
-
-        input[type='text'] {
-            padding: 5px;
-        }
-
         div.changelog {
             border: 1px dashed;
             padding: 0.5em 1em 0.5em 1em;
@@ -126,12 +94,48 @@
     </script>
 </head>
 <body>
+  <div class="container">
+
   <h2>
     QV Fire Tone Generator
   </h2>
-  
+
+  <p>
+    <b>Author: @jbuchbinder</b>
+  </p>
+
+  <p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">
+            <a href="https://github.com/jbuchbinder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </a>    
+        </button>
+        <button type="button" class="btn btn-secondary">
+            <a href="https://bsky.app/jbuchbinder.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewBox="0 0 16 16">
+                    <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"/>
+                </svg>
+            </a>    
+        </button>
+        <button type="button" class="btn btn-secondary">
+            <a href="https://twitter.com/jbuchbinder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                  </svg>
+            </a>    
+        </button>
+      </div>
+  </p>
+
+  <p>
+    <em>This tone generator can help you learn the two tone Plectron pattern used in Quinebaug Valley.</em>
+  </p>
+
   <div>
-    <select id="departmentTones">
+    <select class="form-select form-select-lg mb-3" id="departmentTones">
       <option value="">SELECT A DEPARTMENT</option>
       <option value="910,1344">Ashford #20</option>
       <option value="472.5,1530">Eastford #71</option>
@@ -192,7 +196,7 @@
       <option value="474.8,950">Woodstock - Woodstock Ambulance #76</option>
       <option value="474.8,1598">Woodstock - Muddy Brook #75</option>
     </select>
-    <button id="deptToneGo" onClick="prefab(document.getElementById('departmentTones').value)">
+    <button class="btn btn-primary mb-3" id="deptToneGo" onClick="prefab(document.getElementById('departmentTones').value)">
       Play
     </button>
   </div>
@@ -200,7 +204,7 @@
   <div id="specifyTones">
     <input type="text" id="first" name="first" placeholder="First Tone (hz)" />
     <input type="text" id="second" name="second" placeholder="Second Tone (hz)" />
-    <button id="gentone" onClick="generateTone(document.getElementById('first').value, document.getElementById('second').value)">
+    <button class="btn btn-primary" id="gentone" onClick="generateTone(document.getElementById('first').value, document.getElementById('second').value)">
       Generate Tone
     </button>
   </div>
@@ -219,5 +223,7 @@
     <p>Fri Nov 30 2018 : Missing app refreshed.</p>
   </div>
 
+  </div> <!-- /container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
